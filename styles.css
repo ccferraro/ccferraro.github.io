@@ -1,69 +1,86 @@
-h1, h2 {
+h1 {
 
-    color:whitesmoke;
-    text-shadow: 2px 2px 2px grey;
-    font-size: 96px;
+    color:navy;
+    text-shadow: 4px 4px 4px white;
+    font-size: 80px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 5px;
-    border: 1px solid black;
-    padding-left: 15px;
-    text-decoration: underline;
-    border-color:whitesmoke;
-    border-style: double;
-    border-width: 5px;  
-    box-shadow: 2px 2px 2px white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
-    font-family: Helvetica;
-    border-radius: 35px;
+    font-family: 'Permanent Marker', cursive;
 }
 
-#header2 {
-    font-style: italic;
+h2 {
+
+    color:navy;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 30px;  
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 0px;
+}
+
+h3 {
+
+    color:navy;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 30px;  
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 0px;
+}
+
+.jumbotron {
+    background-attachment: fixed;
+    background-image: url(TMB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
     text-align: center;
-    font-family: Helvetica;
+    font-family: 'Cabin', sans-serif;
+    font-size: large;
 
-}
-
-img {
-
-    height: 320px;
-    /* width: 200px;  */
-}
-
-em {
-    text-transform: uppercase;
-    font-style: initial;
-}
-
-#first {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
-.tacos  {
-    color: green;
 }
 
 body {
-    background-image:url(lacblanc.jfif);
-    background-attachment: fixed;
-    background-size: cover;
+    background-image:url(#);
+    background-attachment: scroll;
+    background-size: ccver;
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
 }
 
-.big {
+ul {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: large;
+   
+  }
+  
+.align-center {
+    text-align: center;
+  }
 
-    font-size: 32px;
+.packinglist {
+    background-color: whitesmoke;
+    padding: 20px;
 }
 
-p.tacos .big{
-
-    font-size: 48px;
+.carousel {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

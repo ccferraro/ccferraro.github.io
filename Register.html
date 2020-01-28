@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:500|Neucha|Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- Your stuff goes here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fas fa-mountain"></i>
+        <a class="navbar-brand" href="#">Tour du Mont Blanc</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="Trip Details.html">Trip Details</a>
+            <a class="btn btn-outline-secondary" href="Register.html">Sign Up</a>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="container text-center">
+        <h1>Interested?</h1>
+        <h4>Sign up to receive more infromation about specific dates and pricing of the trip,</h4>
+      </div>
+  
+      <div class="container my-5">
+        <form action="https://formspree.io/mjvyzlkp" method="post">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input type="text" class="form-control" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label>Hiking Experience</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="HikingExperience" id="HikingExpBeg" value="Beginner" checked>
+              <label class="form-check-label" for="Beginner">
+                Beginner
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="HikingExperience" id="HikingExpInt" value="Intermediate">
+              <label class="form-check-label" for="Intermediate">
+                Intermediate
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="HikingExperience" id="HikingExpExp" value="Expert">
+              <label class="form-check-label" for="Expert">
+                Expert
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+
+  
